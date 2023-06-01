@@ -1,0 +1,4 @@
+node_modules
+jsFiles
+dist
+.env
