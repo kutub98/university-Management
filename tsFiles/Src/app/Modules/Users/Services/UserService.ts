@@ -13,9 +13,9 @@ import { generateUsersId } from '../Utils/users.utils'
 
 const CreatingUsers = async (user: IUser): Promise<IUser | null> => {
   // Generated auto incremental id for users
-    const id = await generateUsersId()
-    // console.log(id);
-    user.id = id as string
+  const id = await generateUsersId()
+  // console.log(id);
+  user.id = id as string
 
   // Default password for users
   if (!user.password) {

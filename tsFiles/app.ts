@@ -8,15 +8,15 @@ App.use(cors())
 App.use(express.json())
 App.use(express.urlencoded({ extended: true }))
 
-// Application Routes 
-App.use("/api/v1/users", router)
+// Application Routes
+App.use('/api/v1/users', router)
 //testing
 App.get('/', async (req: Request, res: Response) => {
-    // await UserService.CreatingUsers({
-    //   id: "999",
-    //   role: "student",
-    //   password: "1234"
-    // })
+  // await UserService.CreatingUsers({
+  //   id: "999",
+  //   role: "student",
+  //   password: "1234"
+  // })
 
   res.send('Server is running by get Request')
 })

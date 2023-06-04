@@ -29,6 +29,21 @@
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.0.4"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "src/**/*.css": [
+      "stylelint --fix",
+      "git add"
+    ]
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.1.1",
