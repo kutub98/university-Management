@@ -1,0 +1,12 @@
+{
+  message: 'Successfully server is running',
+  level: 'info',
+  label: 'UniversityManagement',
+  timestamp: '2023-06-05T19:45:39.331Z'
+}
+{
+  message: 'Server is running from 5000',
+  level: 'info',
+  label: 'UniversityManagement',
+  timestamp: '2023-06-05T19:45:39.357Z'
+}

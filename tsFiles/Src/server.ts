@@ -1,21 +1,23 @@
 import mongoose from 'mongoose'
 import App from '../app'
 import config from './config'
+import { InfoLogger, errorLogger } from './Share/logger'
+
 const port = 5000 || process.env.Url //PORT
 
 // dbConnection
 const dbConnection = async () => {
   try {
     await mongoose.connect(config.DatabaseUrl as string)
-    console.log('Successfully server is running')
+    InfoLogger.info('Successfully server is running')
     App.listen(config.port, () => {
-      console.log(`Server is running from ${port}`)
+      InfoLogger.info(`Server is running from ${port}`)
     })
   } catch (error) {
-    console.log(error, 'Something wen wrong!')
+    errorLogger.error(error, 'Something wen wrong!')
   }
 
   // await mongoose.connect("")
 }
 
-dbConnection().catch(error => console.log(error))
+dbConnection().catch(error => (error))
