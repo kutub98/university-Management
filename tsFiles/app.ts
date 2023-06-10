@@ -1,26 +1,32 @@
-import express, { Application, Request, Response } from 'express'
+import express, { Application, NextFunction, Request, Response } from 'express'
 import cors from 'cors'
-import router from './Src/app/Modules/Users/Router/user.router'
+
+
+import { UserRouter } from './Src/app/Modules/Users/Router/user.router'
+import GlobalErrorHandler from './Src/Share/Errors/GlobalError'
+
+
+
 const App: Application = express()
-// import UserService from './Src/app/Modules/Users/Services/UserService'
+
 // parse
 App.use(cors())
 App.use(express.json())
 App.use(express.urlencoded({ extended: true }))
 
-console.log("Checking", App.get("env"))
 
 // Application Routes
-App.use('/api/v1/users', router)
-//testing
-App.get('/', async (req: Request, res: Response) => {
-  // await UserService.CreatingUsers({
-  //   id: "999",
-  //   role: "student",
-  //   password: "1234"
-  // })
+App.use('/api/v1/users', UserRouter)
 
-  res.send('Server is running by get Request')
-})
+
+
+// testing
+App.get('/', async (req: Request, res: Response, next: NextFunction) => {
+  throw new Error("testing error")
+});
+
+//global Error
+App.use(GlobalErrorHandler)
+
 
 export default App

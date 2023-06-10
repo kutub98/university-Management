@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\Signal\\.436b2da0623d14e6ddc7da12baa7a3aad14af0e7-audit.json",
+    "files": [
+        {
+            "date": 1686396963179,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\Signal\\phu-2023-10-06-17-signalInfo.log",
+            "hash": "940d6aa6d57f3cd2e7de0696b298b414a33eec124ce65f1043287af66185dc5e"
+        },
+        {
+            "date": 1686401726941,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\Signal\\phu-2023-10-06-18-signalInfo.log",
+            "hash": "1f139121daa03a80e8804a6815e269aae8c6d18c29af1c6fa47017458fe28057"
+        },
+        {
+            "date": 1686402000581,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\Signal\\phu-2023-10-06-19-signalInfo.log",
+            "hash": "997ae9b74d27fae344ad0d7bd99835457671a7a858289fc0c643df9f4bbfcfea"
+        }
+    ],
+    "hashType": "sha256"
+}

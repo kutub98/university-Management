@@ -1,23 +1,60 @@
+import { Server } from 'http';
 import mongoose from 'mongoose'
 import App from '../app'
 import config from './config'
-import { InfoLogger, errorLogger } from './Share/logger'
+import { infologger, errorlogger, signalInfo, UncaughtError } from './Share/logger'
+const port = process.env.PORT || 5000
 
-const port = 5000 || process.env.Url //PORT
 
-// dbConnection
+// Uncaught code exception is detection
+
+process.on("uncaughtException", error => {
+  // console.log("Uncaught code exception is detected ....", error)
+  UncaughtError.error("uncaught code Exception is detected",error)
+  process.exit(1)
+})
+
+
+
+
+// server
+let myServer: Server;
+
 const dbConnection = async () => {
+
   try {
     await mongoose.connect(config.DatabaseUrl as string)
-    InfoLogger.info('Successfully server is running')
-    App.listen(config.port, () => {
-      InfoLogger.info(`Server is running from ${port}`)
+    infologger.info('Server successfully connected to the database')
+    myServer = App.listen(port, () => {
+      infologger.info(`Server is running on port ${port}`)
     })
   } catch (error) {
-    errorLogger.error(error, 'Something wen wrong!')
+    errorlogger.error('Something went wrong!', error)
   }
 
-  // await mongoose.connect("")
+  process.on("unhandledRejection", (error) => {
+    // errorlogger.error("Unhandled error rejection, we are closing the server");
+    if (myServer) {
+      myServer.close(() => {
+        errorlogger.error( "Unhandled error rejection, we are closing the server,",error);
+        process.exit(1);
+      });
+    } else {
+      process.exit(1);
+    }
+  });
+
 }
 
 dbConnection().catch(error => (error))
+
+
+
+
+// Get single if there any problem or clossed something.
+process.on("SIGTERM", (error) => {
+  signalInfo.error("got signle form server", error)
+  if (myServer) {
+    myServer.close()
+  }
+})

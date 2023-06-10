@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\UncaughtError\\.778850f2f5264e9ed26aebf25091a60ea3f83ec2-audit.json",
+    "files": [
+        {
+            "date": 1686396963190,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\UncaughtError\\phu-2023-10-06-17-UncaughtError.log",
+            "hash": "190a9f58861200847999c4be1310255e439d210c0df00341878809575c2b49a6"
+        },
+        {
+            "date": 1686401726962,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\UncaughtError\\phu-2023-10-06-18-UncaughtError.log",
+            "hash": "f78b4bdbcd48b5350a860b09ed68c9f424737b48b56c303bed44be2ead9b4584"
+        },
+        {
+            "date": 1686402000590,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\UncaughtError\\phu-2023-10-06-19-UncaughtError.log",
+            "hash": "ab2a49f10f495fb2c562c8314c225e01e255574fbf3653561140a0afa6283a03"
+        }
+    ],
+    "hashType": "sha256"
+}

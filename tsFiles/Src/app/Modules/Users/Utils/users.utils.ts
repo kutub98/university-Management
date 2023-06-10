@@ -1,8 +1,11 @@
-import { Users } from '../User.Model'
+// import { Users } from '../User.Model'
+
+import { Users } from "../Modals/User.Model"
 
 // console.log(counter);
 
 export const findLastUser = async () => {
+
   const lastUser = await Users.findOne({}, { id: 1, _id: 0 })
     .sort({ createdAt: -1 })
     .lean()
@@ -51,10 +54,3 @@ export const generateUsersId = async () => {
   return studentId
 }
 
-// export const generateUsersId = async () => {
-//   const lastUser = await findLastUser();
-
-//   const currentId = lastUser ? lastUser.id.toString() : "0".padStart(7, "0");
-//   const incrementId =  (parseInt(currentId) + 1).toString().padStart(7, "0");
-//   return incrementId;
-// };
