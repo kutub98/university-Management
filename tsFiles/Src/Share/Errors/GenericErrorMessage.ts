@@ -1,6 +1,6 @@
 
 export type IgenericErrorMessage = {
-  path:  number | string,
+  path:  string | number,
   message: string
 
 }

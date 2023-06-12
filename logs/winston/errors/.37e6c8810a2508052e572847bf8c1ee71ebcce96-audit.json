@@ -6,19 +6,64 @@
     "auditLog": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\errors\\.37e6c8810a2508052e572847bf8c1ee71ebcce96-audit.json",
     "files": [
         {
-            "date": 1686396963184,
-            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\errors\\phu-2023-10-06-17-error.log",
-            "hash": "8c73cd86d1ff5be60efdaf72490555ccf05489e9fa23c5d486df7568a101abc5"
+            "date": 1686422822477,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\errors\\phu-2023-11-06-00-error.log",
+            "hash": "0f58a36da3eb0b54ec60c17d5219ce9c9b8b680dadb8e161b68c146691994232"
         },
         {
-            "date": 1686401726951,
-            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\errors\\phu-2023-10-06-18-error.log",
-            "hash": "5311dfcd7e9cb948b539f3084c9ad36bdf6217a1edf796dd62950e70ee586d79"
+            "date": 1686423606268,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\errors\\phu-2023-11-06-01-error.log",
+            "hash": "84fcaf0cda31e2591b315b65d3821b62ed3cba87ea292bf6fe3e88bb90612fd6"
         },
         {
-            "date": 1686402000586,
-            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\errors\\phu-2023-10-06-19-error.log",
-            "hash": "8cc33171f5d2220b19b0ac681570be7a43a0e552c8b4cbfcacab8864d7396912"
+            "date": 1686475163137,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\errors\\phu-2023-11-06-15-error.log",
+            "hash": "068e8a24c3b375eede268251076a9981227f82271da9aeeaa81994c1a3226a0f"
+        },
+        {
+            "date": 1686485440302,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\errors\\phu-2023-11-06-18-error.log",
+            "hash": "5661a9e2f4032a433c23bff1b77dfad7ef4c4ad81a1f5a362dddb6600dce40be"
+        },
+        {
+            "date": 1686488405144,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\errors\\phu-2023-11-06-19-error.log",
+            "hash": "0a1eaf9e9bc6357196051188774de9f06faa56dd93023ca6b9ee301e5788c69c"
+        },
+        {
+            "date": 1686493603765,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\errors\\phu-2023-11-06-20-error.log",
+            "hash": "d0d6f1fc1b8f5bae0564601db1503be05a2883bf7de32852301a42c4f1ca64ef"
+        },
+        {
+            "date": 1686506484001,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\errors\\phu-2023-12-06-00-error.log",
+            "hash": "d2c71155af582926f4e0d4b7d019c4cfc5ed3bb6a87e1bf2103d067cd26b1dab"
+        },
+        {
+            "date": 1686511986622,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\errors\\phu-2023-12-06-01-error.log",
+            "hash": "cee75eb61f1c40ca5c2a94d14ce32fe810b79cf2d2cf9b8c288d65eb4435a195"
+        },
+        {
+            "date": 1686514087588,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\errors\\phu-2023-12-06-02-error.log",
+            "hash": "ec41b6d253ffb56dd5c8edfa22b2790976b0b97f4df82d83efd757039a3fceef"
+        },
+        {
+            "date": 1686560214844,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\errors\\phu-2023-12-06-14-error.log",
+            "hash": "ea307376a06b94bcb1bfe1331f42db430903903353fd7675abb6fb679a712947"
+        },
+        {
+            "date": 1686560845136,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\errors\\phu-2023-12-06-15-error.log",
+            "hash": "1d44e336b8f5cf6fe6022b0656ae7874cc036676d6dcfec6926dd1e382aa6b41"
+        },
+        {
+            "date": 1686564001529,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\errors\\phu-2023-12-06-16-error.log",
+            "hash": "f4b117f554d94d9b39d1ffd27389f4285b5029086276477be6785b2eb7f36b0c"
         }
     ],
     "hashType": "sha256"

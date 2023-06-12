@@ -7,15 +7,11 @@ const port = process.env.PORT || 5000
 
 
 // Uncaught code exception is detection
-
 process.on("uncaughtException", error => {
   // console.log("Uncaught code exception is detected ....", error)
-  UncaughtError.error("uncaught code Exception is detected",error)
+  UncaughtError.error("uncaught code Exception is detected", error)
   process.exit(1)
 })
-
-
-
 
 // server
 let myServer: Server;
@@ -36,7 +32,7 @@ const dbConnection = async () => {
     // errorlogger.error("Unhandled error rejection, we are closing the server");
     if (myServer) {
       myServer.close(() => {
-        errorlogger.error( "Unhandled error rejection, we are closing the server,",error);
+        errorlogger.error("Unhandled error rejection, we are closing the server,", error);
         process.exit(1);
       });
     } else {
@@ -47,9 +43,6 @@ const dbConnection = async () => {
 }
 
 dbConnection().catch(error => (error))
-
-
-
 
 // Get single if there any problem or clossed something.
 process.on("SIGTERM", (error) => {

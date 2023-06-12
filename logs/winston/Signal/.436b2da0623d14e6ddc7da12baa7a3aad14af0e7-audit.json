@@ -6,19 +6,64 @@
     "auditLog": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\Signal\\.436b2da0623d14e6ddc7da12baa7a3aad14af0e7-audit.json",
     "files": [
         {
-            "date": 1686396963179,
-            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\Signal\\phu-2023-10-06-17-signalInfo.log",
-            "hash": "940d6aa6d57f3cd2e7de0696b298b414a33eec124ce65f1043287af66185dc5e"
+            "date": 1686422822472,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\Signal\\phu-2023-11-06-00-signalInfo.log",
+            "hash": "dca0790e06d7516ec696753c6e1f730374f06c311bb852a915d7c99344327bdf"
         },
         {
-            "date": 1686401726941,
-            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\Signal\\phu-2023-10-06-18-signalInfo.log",
-            "hash": "1f139121daa03a80e8804a6815e269aae8c6d18c29af1c6fa47017458fe28057"
+            "date": 1686423606263,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\Signal\\phu-2023-11-06-01-signalInfo.log",
+            "hash": "1be14d3d149ed05ea4ce25b0f5a6f2cc5fed9307315a08cf1b9e3f3e7e9b8686"
         },
         {
-            "date": 1686402000581,
-            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\Signal\\phu-2023-10-06-19-signalInfo.log",
-            "hash": "997ae9b74d27fae344ad0d7bd99835457671a7a858289fc0c643df9f4bbfcfea"
+            "date": 1686475163127,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\Signal\\phu-2023-11-06-15-signalInfo.log",
+            "hash": "cd29dea665cb6bb7e56748dce4492c49ca1e11cecdf1085cd1f2ed3f3ce38eb9"
+        },
+        {
+            "date": 1686485440298,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\Signal\\phu-2023-11-06-18-signalInfo.log",
+            "hash": "49ca672fe1a98a26365e148952658822ea7e6c9111dbe44ffcd6d13963b47473"
+        },
+        {
+            "date": 1686488405139,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\Signal\\phu-2023-11-06-19-signalInfo.log",
+            "hash": "54806e17155be5f08d6cea18d8adff2703daef17f5d9b2fece27c58ddb02f700"
+        },
+        {
+            "date": 1686493603753,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\Signal\\phu-2023-11-06-20-signalInfo.log",
+            "hash": "d826469a70fc668a4bde6af898ec3ce69ad3da8464e90f883769be8d37b603fe"
+        },
+        {
+            "date": 1686506483993,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\Signal\\phu-2023-12-06-00-signalInfo.log",
+            "hash": "a72edaf843eaeb2074aab0c03f9ba1d5c6382a19902e0980131a06f60cf150ee"
+        },
+        {
+            "date": 1686511986613,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\Signal\\phu-2023-12-06-01-signalInfo.log",
+            "hash": "6ed82befea19492ae034ede80ef5b6c59087d44f6d1b8d076f3cdb423d224ba3"
+        },
+        {
+            "date": 1686514087583,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\Signal\\phu-2023-12-06-02-signalInfo.log",
+            "hash": "51502b81fbcbab2805476a4969b058b61f9080bc257b705b9c1355b0be376eee"
+        },
+        {
+            "date": 1686560214829,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\Signal\\phu-2023-12-06-14-signalInfo.log",
+            "hash": "3bc3fc689d0f480196d1c41472b9e84e63fa25ec7c4a87f94b3b052acc37a82c"
+        },
+        {
+            "date": 1686560845129,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\Signal\\phu-2023-12-06-15-signalInfo.log",
+            "hash": "514e5fbec5636176d1440086ff5118bf8bbdd23d8cb62763b4f4f485ec9d964e"
+        },
+        {
+            "date": 1686564001525,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\Signal\\phu-2023-12-06-16-signalInfo.log",
+            "hash": "ea5f373b5958441bb79433b5bf217c9d092c93993c5994a0e27f24a08cb17391"
         }
     ],
     "hashType": "sha256"

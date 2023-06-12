@@ -1,10 +1,12 @@
+import { ZodError } from 'zod';
 
-import { ErrorRequestHandler,zaAcc  } from "express"
+import { ErrorRequestHandler  } from "express"
 import config from "../../config"
 import ValidationErrors from "./ValidationError";
 import { errorlogger } from "../logger";
 import { IgenericErrorMessage } from "./GenericErrorMessage";
 import ApiError from "./ApiError";
+import handleZodeError from './HandledZodError';
 
 
 const GlobalErrorHandler: ErrorRequestHandler = (
@@ -20,13 +22,22 @@ const GlobalErrorHandler: ErrorRequestHandler = (
   let message = 'Something went wrong by global!';
   let errorMessages: IgenericErrorMessage[] = [];
 
-  console.log(error, "hi how are u")
+ // custom Error
   if (error?.name === 'ValidationError') {
     const simplifiedError = ValidationErrors(error);
     statusCode = simplifiedError.statusCode;
     message = simplifiedError.message;
     errorMessages = simplifiedError.errorMessages;
-  } else if (error instanceof ApiError) {
+  }
+  // custtom ZodError 
+  else if(error instanceof ZodError){
+    const simplifiedError = handleZodeError(error);
+    statusCode = simplifiedError.statusCode;
+    message = simplifiedError.message;
+    errorMessages = simplifiedError.errorMessages;
+  }
+  // custom ApiError 
+  else if (error instanceof ApiError) {
     statusCode = error?.statusCode;
     message = error.message;
     errorMessages = error?.message
@@ -37,7 +48,9 @@ const GlobalErrorHandler: ErrorRequestHandler = (
         },
       ]
       : [];
-  } else if (error instanceof Error) {
+  } 
+  // error form mongoose
+  else if (error instanceof Error) {
     message = error?.message;
     errorMessages = error?.message
       ? [

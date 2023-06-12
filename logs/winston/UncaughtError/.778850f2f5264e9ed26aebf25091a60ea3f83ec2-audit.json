@@ -6,19 +6,64 @@
     "auditLog": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\UncaughtError\\.778850f2f5264e9ed26aebf25091a60ea3f83ec2-audit.json",
     "files": [
         {
-            "date": 1686396963190,
-            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\UncaughtError\\phu-2023-10-06-17-UncaughtError.log",
-            "hash": "190a9f58861200847999c4be1310255e439d210c0df00341878809575c2b49a6"
+            "date": 1686422822482,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\UncaughtError\\phu-2023-11-06-00-UncaughtError.log",
+            "hash": "3c24494c16e7c6a9d41261f38521040b6d2bc1f4a1c715d5179f3455aefb7ade"
         },
         {
-            "date": 1686401726962,
-            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\UncaughtError\\phu-2023-10-06-18-UncaughtError.log",
-            "hash": "f78b4bdbcd48b5350a860b09ed68c9f424737b48b56c303bed44be2ead9b4584"
+            "date": 1686423606273,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\UncaughtError\\phu-2023-11-06-01-UncaughtError.log",
+            "hash": "b043ac91ed8c4496a0f6713f6a39a0033dc344065b4ba431cc411ff9d9770cb9"
         },
         {
-            "date": 1686402000590,
-            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\UncaughtError\\phu-2023-10-06-19-UncaughtError.log",
-            "hash": "ab2a49f10f495fb2c562c8314c225e01e255574fbf3653561140a0afa6283a03"
+            "date": 1686475163148,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\UncaughtError\\phu-2023-11-06-15-UncaughtError.log",
+            "hash": "3cdc80f6dd65be939f1fe378030df55776ab6d00ae920f1b699346c566d7228a"
+        },
+        {
+            "date": 1686485440307,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\UncaughtError\\phu-2023-11-06-18-UncaughtError.log",
+            "hash": "a726b3e3c08f0201b92595c8aca6a5c4985500dd4c94c809077917ab1df39786"
+        },
+        {
+            "date": 1686488405149,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\UncaughtError\\phu-2023-11-06-19-UncaughtError.log",
+            "hash": "38b5feb28a318ec161c693f4f687e7ab76b6bb8cb96a7dbca3e0925b33473abb"
+        },
+        {
+            "date": 1686493603771,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\UncaughtError\\phu-2023-11-06-20-UncaughtError.log",
+            "hash": "3e488f9bed2bb5710ca42b1fe68503697c29f28f14d5a91f7116f5ed3ddd55cd"
+        },
+        {
+            "date": 1686506484008,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\UncaughtError\\phu-2023-12-06-00-UncaughtError.log",
+            "hash": "2b924aae9ef184304b236abbe4e9e229c7533d5de0f68ac394c58b54177be8a8"
+        },
+        {
+            "date": 1686511986630,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\UncaughtError\\phu-2023-12-06-01-UncaughtError.log",
+            "hash": "c106cca002578db6cc4cfa8b618a58db3ca6588c78ceb78f5ac2b63e2003e003"
+        },
+        {
+            "date": 1686514087593,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\UncaughtError\\phu-2023-12-06-02-UncaughtError.log",
+            "hash": "b1b49ba31600b3f7236dfa454d58f6f7c11ceb80c337d7ff7f6b372d10353bf1"
+        },
+        {
+            "date": 1686560214860,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\UncaughtError\\phu-2023-12-06-14-UncaughtError.log",
+            "hash": "1f5103932474741e69a73839467bda2d9067cf54be47edc7d12382c78849c049"
+        },
+        {
+            "date": 1686560845140,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\UncaughtError\\phu-2023-12-06-15-UncaughtError.log",
+            "hash": "697e3242a1e643c5ee7e1b9c80ba9cdf60a450086d7ca713978e18beb15d0c25"
+        },
+        {
+            "date": 1686564001534,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university-management\\logs\\winston\\UncaughtError\\phu-2023-12-06-16-UncaughtError.log",
+            "hash": "41432c681b46aa7bd75d505fea7590b71b2cac96574a30e0cf330b0c49e205df"
         }
     ],
     "hashType": "sha256"

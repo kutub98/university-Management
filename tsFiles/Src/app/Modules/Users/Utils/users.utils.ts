@@ -26,7 +26,7 @@ export const generateUsersId = async () => {
   counter++
 
   // Check if the counter has reached the limit for the current year or the ID format
-  console.log(randomDigits, 'Random Dig')
+
   if (counter > 10000 || randomDigits === '9999') {
     // If the counter exceeds 10000 or randomDigits is '9999', reset the counter and update randomDigits
     counter = 1

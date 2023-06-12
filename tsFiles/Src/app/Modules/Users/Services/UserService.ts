@@ -14,7 +14,7 @@ const CreatingUsers = async (user: IUser): Promise<IUser | null> => {
 
   const createdUsers = await Users.create(user)
   if (!createdUsers) {
-    throw new ApiError(400,'Failed to Creating User')
+    throw new ApiError(400, 'Failed to Creating User')
   } else {
     console.log('Successfully created users')
   }
