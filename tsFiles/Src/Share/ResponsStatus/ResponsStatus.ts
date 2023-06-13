@@ -23,7 +23,13 @@ type IRespondStatus<T> = {
   statusCode: number;
   success: boolean,
   message: string | null;
-  data?: T | null
+  meta: {
+    page: number,
+    limit: number,
+    total: number
+  },
+  data?: T | null,
+
 }
 
 const ResponseStatus = <T>(res: Response, data: IRespondStatus<T>): void => {
@@ -31,6 +37,7 @@ const ResponseStatus = <T>(res: Response, data: IRespondStatus<T>): void => {
     statusCode: data.statusCode,
     success: data.success,
     message: data.message || null,
+    meta: data.meta || null ,
     data: data.data || null
   }
   res.status(data.statusCode).json(ResponseData)

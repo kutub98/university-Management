@@ -16,13 +16,14 @@ const createUser = CatchAsync(async (req: Request, res: Response, next: NextFunc
   //   message: 'Successfully created Users',
   //   data: creatingUser,
   // })
-  next()
   ResponseStatus(res, {
     statusCode: httpStatus.OK,
     success: true,
     message: "Successfully created user",
     data: creatingUser
   })
+  next()
+
 })
 
 export const UserController = {
